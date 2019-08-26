@@ -25,8 +25,7 @@ extension LastfmTarget: TargetType {
     
     var task: Task {
         var parameters = [
-            "format": "json",
-            "api_key": ""
+            "format": "json"
         ]
         switch self {
         case let .topTracks(user):
