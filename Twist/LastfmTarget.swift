@@ -8,6 +8,12 @@ import Moya
 
 enum LastfmTarget {
     case topTracks(user: String)
+
+    private func stubbedResponse(_ filename: String) -> Data {
+        let path = Bundle.main.path(forResource: filename, ofType: "json")
+        return (try! Data(contentsOf: URL(fileURLWithPath: path!)))
+    }
+
 }
 
 extension LastfmTarget: TargetType {
@@ -40,7 +46,7 @@ extension LastfmTarget: TargetType {
     }
     
     var sampleData: Data {
-        return Data(base64Encoded: "")!
+        return stubbedResponse("topTracks")
     }
     
 }

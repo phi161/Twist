@@ -12,7 +12,7 @@ struct HTTPClient {
     
     init(isStubbed: Bool = false, tokenProvider: TokenProvider = TokenProvider()) {
         if isStubbed {
-            provider = MoyaProvider<LastfmTarget>(stubClosure: MoyaProvider.immediatelyStub)
+            provider = MoyaProvider<LastfmTarget>(stubClosure: MoyaProvider.delayedStub(3))
         } else {
             provider = MoyaProvider<LastfmTarget>(plugins: [
                 LastfmAuthPlugin(token: tokenProvider.lastfmToken),

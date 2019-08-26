@@ -1,0 +1,198 @@
+{
+  "toptracks": {
+    "@attr": {
+      "page": "1",
+      "perPage": "5",
+      "user": "stub_user",
+      "total": "43531",
+      "totalPages": "8707"
+    },
+    "track": [
+      {
+        "@attr": {
+          "rank": "1"
+        },
+        "duration": "249",
+        "playcount": "180",
+        "artist": {
+          "url": "https://www.last.fm/music/Radiohead",
+          "name": "Radiohead",
+          "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+        },
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "00b1f346-356e-387e-9faf-bcb2e8fd7ea7",
+        "name": "Jigsaw Falling Into Place",
+        "url": "https://www.last.fm/music/Radiohead/_/Jigsaw+Falling+Into+Place"
+      },
+      {
+        "@attr": {
+          "rank": "2"
+        },
+        "duration": "308",
+        "playcount": "176",
+        "artist": {
+          "url": "https://www.last.fm/music/Electrelane",
+          "name": "Electrelane",
+          "mbid": "7756e3dc-f44c-4678-a7bc-d1b31204a963"
+        },
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "d82cccd7-1d3d-3669-bc38-fe705dc358f3",
+        "name": "I Only Always Think",
+        "url": "https://www.last.fm/music/Electrelane/_/I+Only+Always+Think"
+      },
+      {
+        "@attr": {
+          "rank": "3"
+        },
+        "duration": "191",
+        "playcount": "140",
+        "artist": {
+          "url": "https://www.last.fm/music/Radiohead",
+          "name": "Radiohead",
+          "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+        },
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "01d55c9d-98ff-357f-ba33-0cf4e7d7cf08",
+        "name": "You and Whose Army?",
+        "url": "https://www.last.fm/music/Radiohead/_/You+and+Whose+Army%3F"
+      },
+      {
+        "@attr": {
+          "rank": "4"
+        },
+        "duration": "105",
+        "playcount": "139",
+        "artist": {
+          "url": "https://www.last.fm/music/Scott+Walker",
+          "name": "Scott Walker",
+          "mbid": "99524243-dc2e-4bf3-82c0-72395391d21f"
+        },
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "17df0da7-43ae-4cb8-8097-0b936a5a582e",
+        "name": "On Your Own Again",
+        "url": "https://www.last.fm/music/Scott+Walker/_/On+Your+Own+Again"
+      },
+      {
+        "@attr": {
+          "rank": "5"
+        },
+        "duration": "314",
+        "playcount": "134",
+        "artist": {
+          "url": "https://www.last.fm/music/Radiohead",
+          "name": "Radiohead",
+          "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+        },
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "streamable": {
+          "fulltrack": "0",
+          "#text": "0"
+        },
+        "mbid": "0a8c564c-a476-41d0-9a03-9fbf6a7f48e0",
+        "name": "Staircase",
+        "url": "https://www.last.fm/music/Radiohead/_/Staircase"
+      }
+    ]
+  }
+}
