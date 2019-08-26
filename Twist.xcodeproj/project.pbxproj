@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B0B94B45DD5A67CD5698BAAE /* Pods_Twist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6D8DE3F7F16A375F7CA1E9 /* Pods_Twist.framework */; };
 		CF1F219D23140FF700318E7B /* LastfmAuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */; };
+		CF1F219F2314281400318E7B /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F219E2314281400318E7B /* TokenProvider.swift */; };
 		CF1F21A1231429DF00318E7B /* topTracks.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1F21A0231429DF00318E7B /* topTracks.json */; };
 		CF7D71732313D931001D3F37 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D71722313D931001D3F37 /* HTTPClient.swift */; };
 		CFE96C6E2313C9310045EB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6D2313C9310045EB65 /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 		2D6D8DE3F7F16A375F7CA1E9 /* Pods_Twist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF867F8756E8DF16535FA209 /* Pods-Twist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twist.release.xcconfig"; path = "Target Support Files/Pods-Twist/Pods-Twist.release.xcconfig"; sourceTree = "<group>"; };
 		CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastfmAuthPlugin.swift; sourceTree = "<group>"; };
+		CF1F219E2314281400318E7B /* TokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
 		CF1F21A0231429DF00318E7B /* topTracks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topTracks.json; sourceTree = "<group>"; };
 		CF7D71722313D931001D3F37 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		CFE96C6A2313C9310045EB65 /* Twist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twist.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,15 +96,16 @@
 		CFE96C6C2313C9310045EB65 /* Twist */ = {
 			isa = PBXGroup;
 			children = (
+				CFE96C792313C9330045EB65 /* Info.plist */,
 				CFE96C6D2313C9310045EB65 /* AppDelegate.swift */,
-				CFE96C7F2313CE040045EB65 /* LastfmTarget.swift */,
 				CF7D71722313D931001D3F37 /* HTTPClient.swift */,
 				CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */,
+				CFE96C7F2313CE040045EB65 /* LastfmTarget.swift */,
+				CF1F219E2314281400318E7B /* TokenProvider.swift */,
 				CFE96C6F2313C9310045EB65 /* ViewController.swift */,
-				CFE96C712313C9310045EB65 /* Main.storyboard */,
 				CFE96C742313C9320045EB65 /* Assets.xcassets */,
 				CFE96C762313C9320045EB65 /* LaunchScreen.storyboard */,
-				CFE96C792313C9330045EB65 /* Info.plist */,
+				CFE96C712313C9310045EB65 /* Main.storyboard */,
 				CF1F21A2231429E700318E7B /* stubs */,
 			);
 			path = Twist;
@@ -228,6 +231,7 @@
 				CFE96C802313CE040045EB65 /* LastfmTarget.swift in Sources */,
 				CFE96C702313C9310045EB65 /* ViewController.swift in Sources */,
 				CF7D71732313D931001D3F37 /* HTTPClient.swift in Sources */,
+				CF1F219F2314281400318E7B /* TokenProvider.swift in Sources */,
 				CFE96C6E2313C9310045EB65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
