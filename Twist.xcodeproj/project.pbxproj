@@ -11,6 +11,7 @@
 		CF1F219D23140FF700318E7B /* LastfmAuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */; };
 		CF1F219F2314281400318E7B /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F219E2314281400318E7B /* TokenProvider.swift */; };
 		CF1F21A1231429DF00318E7B /* topTracks.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1F21A0231429DF00318E7B /* topTracks.json */; };
+		CF1F21A42314F52B00318E7B /* friends.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1F21A32314F52B00318E7B /* friends.json */; };
 		CF7D71732313D931001D3F37 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D71722313D931001D3F37 /* HTTPClient.swift */; };
 		CFE96C6E2313C9310045EB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6D2313C9310045EB65 /* AppDelegate.swift */; };
 		CFE96C702313C9310045EB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6F2313C9310045EB65 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastfmAuthPlugin.swift; sourceTree = "<group>"; };
 		CF1F219E2314281400318E7B /* TokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
 		CF1F21A0231429DF00318E7B /* topTracks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topTracks.json; sourceTree = "<group>"; };
+		CF1F21A32314F52B00318E7B /* friends.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friends.json; sourceTree = "<group>"; };
 		CF7D71722313D931001D3F37 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		CFE96C6A2313C9310045EB65 /* Twist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE96C6D2313C9310045EB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				CF1F21A0231429DF00318E7B /* topTracks.json */,
+				CF1F21A32314F52B00318E7B /* friends.json */,
 			);
 			path = stubs;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				CF1F21A1231429DF00318E7B /* topTracks.json in Resources */,
 				CFE96C752313C9320045EB65 /* Assets.xcassets in Resources */,
 				CFE96C732313C9310045EB65 /* Main.storyboard in Resources */,
+				CF1F21A42314F52B00318E7B /* friends.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

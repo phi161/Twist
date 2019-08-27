@@ -8,6 +8,7 @@ import Moya
 
 enum LastfmTarget {
     case topTracks(user: String)
+    case friends(user: String)
 
     private func stubbedResponse(_ filename: String) -> Data {
         let path = Bundle.main.path(forResource: filename, ofType: "json")
@@ -37,6 +38,9 @@ extension LastfmTarget: TargetType {
         case let .topTracks(user):
             parameters["method"] = "user.gettoptracks"
             parameters["user"] = user
+        case let .friends(user):
+            parameters["method"] = "user.getfriends"
+            parameters["user"] = user
         }
         return Task.requestParameters(parameters: parameters, encoding: URLEncoding.queryString)
     }
@@ -46,7 +50,12 @@ extension LastfmTarget: TargetType {
     }
     
     var sampleData: Data {
-        return stubbedResponse("topTracks")
+        switch self {
+        case .topTracks:
+            return stubbedResponse("topTracks")
+        case .friends:
+            return stubbedResponse("friends")
+        }
     }
     
 }

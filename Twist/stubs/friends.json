@@ -1,0 +1,79 @@
+{
+  "friends": {
+    "user": [
+      {
+        "playlists": "0",
+        "playcount": "0",
+        "subscriber": "0",
+        "name": "TearDropSs",
+        "country": "Bulgaria",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9b731905f19f8ba64a4a69a8ce5038ed.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9b731905f19f8ba64a4a69a8ce5038ed.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9b731905f19f8ba64a4a69a8ce5038ed.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9b731905f19f8ba64a4a69a8ce5038ed.png"
+          }
+        ],
+        "registered": {
+          "unixtime": "1191444520",
+          "#text": "2007-10-03 20:48"
+        },
+        "url": "https://www.last.fm/user/TearDropSs",
+        "realname": "forgetmenot",
+        "bootstrap": "0",
+        "type": "user"
+      },
+      {
+        "playlists": "0",
+        "playcount": "0",
+        "subscriber": "0",
+        "name": "bunnyrosy",
+        "country": "Singapore",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/4e1fdc2e2ca141b8c198d48c32ce4564.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/4e1fdc2e2ca141b8c198d48c32ce4564.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/4e1fdc2e2ca141b8c198d48c32ce4564.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4e1fdc2e2ca141b8c198d48c32ce4564.png"
+          }
+        ],
+        "registered": {
+          "unixtime": "1241572537",
+          "#text": "2009-05-06 01:15"
+        },
+        "url": "https://www.last.fm/user/bunnyrosy",
+        "realname": "quatschkopf",
+        "bootstrap": "0",
+        "type": "user"
+      }
+    ],
+    "@attr": {
+      "page": "1",
+      "perPage": "2",
+      "user": "user",
+      "total": "37",
+      "totalPages": "19"
+    }
+  }
+}
