@@ -5,6 +5,7 @@
 
 import Foundation
 import Moya
+import RxSwift
 
 struct HTTPClient {
     
@@ -21,15 +22,13 @@ struct HTTPClient {
         }
     }
     
-    func requestTopTracks(_ user: String) {
-        provider.request(.topTracks(user: user)) { (result) in
-            switch result {
-            case let .success(value):
-                print(value)
-            case let .failure(error):
-                print(error)
-            }
-        }
+    func requestObservable<ER: Decodable>(target: LastfmTarget, keyPath: String, responseType: ER.Type) -> Observable<[ER]> {
+        let b = provider.rx
+            .request(target)
+            .filterSuccessfulStatusCodes()
+            .map([ER].self, atKeyPath: keyPath, using: JSONDecoder.init(), failsOnEmptyData: true)
+            .asObservable()
+        return b
     }
 
 }
