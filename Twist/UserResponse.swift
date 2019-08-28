@@ -13,4 +13,8 @@ struct UserResponse: Decodable {
         case name
         case realName = "realname"
     }
+    
+    var user: User {
+        return User(name: name, realName: realName)
+    }
 }

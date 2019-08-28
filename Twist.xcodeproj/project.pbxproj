@@ -14,6 +14,8 @@
 		CF1F21A42314F52B00318E7B /* friends.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1F21A32314F52B00318E7B /* friends.json */; };
 		CF1F21A62314FD9100318E7B /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21A52314FD9100318E7B /* UserResponse.swift */; };
 		CF1F21A823150D4A00318E7B /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21A723150D4A00318E7B /* TrackResponse.swift */; };
+		CF1F21AA2316BA3900318E7B /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21A92316BA3900318E7B /* UserRepository.swift */; };
+		CF1F21AC2316BAB200318E7B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21AB2316BAB200318E7B /* User.swift */; };
 		CF7D71732313D931001D3F37 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D71722313D931001D3F37 /* HTTPClient.swift */; };
 		CFE96C6E2313C9310045EB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6D2313C9310045EB65 /* AppDelegate.swift */; };
 		CFE96C702313C9310045EB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6F2313C9310045EB65 /* ViewController.swift */; };
@@ -33,6 +35,8 @@
 		CF1F21A32314F52B00318E7B /* friends.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friends.json; sourceTree = "<group>"; };
 		CF1F21A52314FD9100318E7B /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		CF1F21A723150D4A00318E7B /* TrackResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponse.swift; sourceTree = "<group>"; };
+		CF1F21A92316BA3900318E7B /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		CF1F21AB2316BAB200318E7B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CF7D71722313D931001D3F37 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		CFE96C6A2313C9310045EB65 /* Twist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE96C6D2313C9310045EB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,11 +110,13 @@
 				CFE96C792313C9330045EB65 /* Info.plist */,
 				CFE96C6D2313C9310045EB65 /* AppDelegate.swift */,
 				CF7D71722313D931001D3F37 /* HTTPClient.swift */,
-				CF1F21A52314FD9100318E7B /* UserResponse.swift */,
-				CF1F21A723150D4A00318E7B /* TrackResponse.swift */,
 				CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */,
 				CFE96C7F2313CE040045EB65 /* LastfmTarget.swift */,
 				CF1F219E2314281400318E7B /* TokenProvider.swift */,
+				CF1F21A723150D4A00318E7B /* TrackResponse.swift */,
+				CF1F21AB2316BAB200318E7B /* User.swift */,
+				CF1F21A92316BA3900318E7B /* UserRepository.swift */,
+				CF1F21A52314FD9100318E7B /* UserResponse.swift */,
 				CFE96C6F2313C9310045EB65 /* ViewController.swift */,
 				CFE96C742313C9320045EB65 /* Assets.xcassets */,
 				CFE96C762313C9320045EB65 /* LaunchScreen.storyboard */,
@@ -239,11 +245,13 @@
 			files = (
 				CF1F219D23140FF700318E7B /* LastfmAuthPlugin.swift in Sources */,
 				CFE96C802313CE040045EB65 /* LastfmTarget.swift in Sources */,
+				CF1F21AA2316BA3900318E7B /* UserRepository.swift in Sources */,
 				CF1F21A823150D4A00318E7B /* TrackResponse.swift in Sources */,
 				CFE96C702313C9310045EB65 /* ViewController.swift in Sources */,
 				CF7D71732313D931001D3F37 /* HTTPClient.swift in Sources */,
 				CF1F21A62314FD9100318E7B /* UserResponse.swift in Sources */,
 				CF1F219F2314281400318E7B /* TokenProvider.swift in Sources */,
+				CF1F21AC2316BAB200318E7B /* User.swift in Sources */,
 				CFE96C6E2313C9310045EB65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
