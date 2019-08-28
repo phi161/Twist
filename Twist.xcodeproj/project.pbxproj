@@ -16,6 +16,7 @@
 		CF1F21A823150D4A00318E7B /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21A723150D4A00318E7B /* TrackResponse.swift */; };
 		CF1F21AA2316BA3900318E7B /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21A92316BA3900318E7B /* UserRepository.swift */; };
 		CF1F21AC2316BAB200318E7B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21AB2316BAB200318E7B /* User.swift */; };
+		CF1F21AE2316E59400318E7B /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21AD2316E59400318E7B /* Track.swift */; };
 		CF7D71732313D931001D3F37 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D71722313D931001D3F37 /* HTTPClient.swift */; };
 		CFE96C6E2313C9310045EB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6D2313C9310045EB65 /* AppDelegate.swift */; };
 		CFE96C702313C9310045EB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6F2313C9310045EB65 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 		CF1F21A723150D4A00318E7B /* TrackResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponse.swift; sourceTree = "<group>"; };
 		CF1F21A92316BA3900318E7B /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		CF1F21AB2316BAB200318E7B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CF1F21AD2316E59400318E7B /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		CF7D71722313D931001D3F37 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		CFE96C6A2313C9310045EB65 /* Twist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE96C6D2313C9310045EB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */,
 				CFE96C7F2313CE040045EB65 /* LastfmTarget.swift */,
 				CF1F219E2314281400318E7B /* TokenProvider.swift */,
+				CF1F21AD2316E59400318E7B /* Track.swift */,
 				CF1F21A723150D4A00318E7B /* TrackResponse.swift */,
 				CF1F21AB2316BAB200318E7B /* User.swift */,
 				CF1F21A92316BA3900318E7B /* UserRepository.swift */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF1F219D23140FF700318E7B /* LastfmAuthPlugin.swift in Sources */,
+				CF1F21AE2316E59400318E7B /* Track.swift in Sources */,
 				CFE96C802313CE040045EB65 /* LastfmTarget.swift in Sources */,
 				CF1F21AA2316BA3900318E7B /* UserRepository.swift in Sources */,
 				CF1F21A823150D4A00318E7B /* TrackResponse.swift in Sources */,
