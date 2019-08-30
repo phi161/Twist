@@ -7,8 +7,8 @@ import Foundation
 import Moya
 
 enum LastfmTarget {
-    case topTracks(user: String)
-    case friends(user: String)
+    case topTracks(user: String, limit: Int)
+    case friends(user: String, limit: Int)
 
     private func stubbedResponse(_ filename: String) -> Data {
         let path = Bundle.main.path(forResource: filename, ofType: "json")
@@ -35,12 +35,14 @@ extension LastfmTarget: TargetType {
             "format": "json"
         ]
         switch self {
-        case let .topTracks(user):
+        case let .topTracks(user, limit):
             parameters["method"] = "user.gettoptracks"
             parameters["user"] = user
-        case let .friends(user):
+            parameters["limit"] = String(limit)
+        case let .friends(user, limit):
             parameters["method"] = "user.getfriends"
             parameters["user"] = user
+            parameters["limit"] = String(limit)
         }
         return Task.requestParameters(parameters: parameters, encoding: URLEncoding.queryString)
     }
