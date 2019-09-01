@@ -4,10 +4,11 @@
 //
 
 import UIKit
+import ReactorKit
 import RxCocoa
 import RxSwift
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -15,7 +16,7 @@ class ViewController: UIViewController {
     var recommendationsInteractor: RecommendationsInteractorType
 
     required init?(coder aDecoder: NSCoder) {
-        let httpClient = HTTPClient()
+        let httpClient = HTTPClient(isStubbed: true)
         let userRepository = UserRepository(client: httpClient)
         recommendationsInteractor = RecommendationsInteractor(userRepository: userRepository)
         super.init(coder: aDecoder)
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         
         recommendationsInteractor
-            .tracks(user: "")
+            .tracks(user: "ok_not_ok_")
             .bind(to: tableView.rx.items(cellIdentifier: "Cell")) { _, model, cell in
                 cell.textLabel?.text = model.debugDescription
             }

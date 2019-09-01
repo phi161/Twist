@@ -6,6 +6,7 @@ target 'Twist' do
 
   # Pods for Twist
   pod 'Moya/RxSwift', '~> 12.0'
+  pod 'ReactorKit', '1.2.1'
   pod 'RxDataSources', '~> 3.1'
 
 end
