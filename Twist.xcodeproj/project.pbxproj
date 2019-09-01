@@ -20,6 +20,7 @@
 		CF1F21B02317F67E00318E7B /* RecommendationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1F21AF2317F67E00318E7B /* RecommendationsInteractor.swift */; };
 		CF7D71732313D931001D3F37 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D71722313D931001D3F37 /* HTTPClient.swift */; };
 		CFDEFF6B231BDBA90082CCA4 /* HomeReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDEFF6A231BDBA90082CCA4 /* HomeReactor.swift */; };
+		CFDEFF6E231BF8B10082CCA4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFDEFF70231BF8B10082CCA4 /* Localizable.strings */; };
 		CFE96C6E2313C9310045EB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6D2313C9310045EB65 /* AppDelegate.swift */; };
 		CFE96C702313C9310045EB65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE96C6F2313C9310045EB65 /* HomeViewController.swift */; };
 		CFE96C732313C9310045EB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE96C712313C9310045EB65 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		CF1F21AF2317F67E00318E7B /* RecommendationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsInteractor.swift; sourceTree = "<group>"; };
 		CF7D71722313D931001D3F37 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		CFDEFF6A231BDBA90082CCA4 /* HomeReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReactor.swift; sourceTree = "<group>"; };
+		CFDEFF6F231BF8B10082CCA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CFE96C6A2313C9310045EB65 /* Twist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE96C6D2313C9310045EB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE96C6F2313C9310045EB65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -115,8 +117,8 @@
 			children = (
 				CFE96C792313C9330045EB65 /* Info.plist */,
 				CFE96C6D2313C9310045EB65 /* AppDelegate.swift */,
-				CFE96C6F2313C9310045EB65 /* HomeViewController.swift */,
 				CFDEFF6A231BDBA90082CCA4 /* HomeReactor.swift */,
+				CFE96C6F2313C9310045EB65 /* HomeViewController.swift */,
 				CF7D71722313D931001D3F37 /* HTTPClient.swift */,
 				CF1F219C23140FF700318E7B /* LastfmAuthPlugin.swift */,
 				CFE96C7F2313CE040045EB65 /* LastfmTarget.swift */,
@@ -129,6 +131,7 @@
 				CF1F21A52314FD9100318E7B /* UserResponse.swift */,
 				CFE96C742313C9320045EB65 /* Assets.xcassets */,
 				CFE96C762313C9320045EB65 /* LaunchScreen.storyboard */,
+				CFDEFF70231BF8B10082CCA4 /* Localizable.strings */,
 				CFE96C712313C9310045EB65 /* Main.storyboard */,
 				CF1F21A2231429E700318E7B /* stubs */,
 			);
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE96C782313C9320045EB65 /* LaunchScreen.storyboard in Resources */,
+				CFDEFF6E231BF8B10082CCA4 /* Localizable.strings in Resources */,
 				CF1F21A1231429DF00318E7B /* topTracks.json in Resources */,
 				CFE96C752313C9320045EB65 /* Assets.xcassets in Resources */,
 				CFE96C732313C9310045EB65 /* Main.storyboard in Resources */,
@@ -271,6 +275,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CFDEFF70231BF8B10082CCA4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDEFF6F231BF8B10082CCA4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		CFE96C712313C9310045EB65 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

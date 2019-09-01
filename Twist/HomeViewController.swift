@@ -23,8 +23,9 @@ class HomeViewController: UIViewController {
     }
     
     private func setup() {
-        title = NSLocalizedString("Twist", comment: "Home View: The title of the view")
-        textField.placeholder = NSLocalizedString("last.fm username", comment: "Home View: The placeholder text for the username input text field")
+        title = NSLocalizedString("home:title", comment: "Home View: The title of the view")
+        textField.placeholder = NSLocalizedString("home:input:placeholder", comment: "Home View: The placeholder text for the username input text field")
+        button.setTitle(NSLocalizedString("home:button:title", comment: "Home View: The title of the button"), for: .normal)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
     }
 
