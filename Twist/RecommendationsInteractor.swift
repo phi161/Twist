@@ -6,8 +6,12 @@
 import Foundation
 import RxSwift
 
-struct RecommendationsInteractor {
-    let userRepository: UserRepository
+protocol RecommendationsInteractorType {
+    func tracks(user: String) -> Observable<[Track]>
+}
+
+struct RecommendationsInteractor: RecommendationsInteractorType {
+    let userRepository: UserRepositoryType
     
     private func topTracks(users: [User]) -> Observable<[Track]> {
         return Observable.from(users)

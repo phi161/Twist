@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let disposeBag = DisposeBag()
-    var recommendationsInteractor: RecommendationsInteractor
+    var recommendationsInteractor: RecommendationsInteractorType
 
     required init?(coder aDecoder: NSCoder) {
         let httpClient = HTTPClient()

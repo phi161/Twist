@@ -8,6 +8,7 @@ import RxSwift
 
 protocol UserRepositoryType {
     func friends(user: String) -> Observable<[User]>
+    func topTracks(user: String) -> Observable<[Track]>
 }
 
 struct UserRepository: UserRepositoryType {
