@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Twist
 //
 
@@ -28,7 +28,7 @@ class HomeViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         
         recommendationsInteractor
-            .tracks(user: "ok_not_ok_")
+            .tracks(user: "")
             .bind(to: tableView.rx.items(cellIdentifier: "Cell")) { _, model, cell in
                 cell.textLabel?.text = model.debugDescription
             }
